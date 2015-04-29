@@ -26,7 +26,7 @@ module.exports = function (config) {
     webpack: webpackConfig,
 
     webpackMiddleware: {
-      noInfo: isCI
+      noInfo: true
     },
 
     reporters: ['mocha'],

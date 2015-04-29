@@ -1,7 +1,15 @@
 import _ from 'lodash';
+import fs from 'fs';
+import path from 'path';
 import webpack from 'webpack';
 import strategies from './strategies';
 import yargs from 'yargs';
+
+const babelCache = path.resolve(path.join(__dirname, '../.babel-cache'));
+
+if (!fs.existsSync(babelCache)) {
+  fs.mkdirSync(babelCache);
+}
 
 const argv = yargs
   .alias('p', 'optimize-minimize')
@@ -44,9 +52,11 @@ export default (options) => {
     ],
 
     module: {
-      loaders: [
-        { test: /\.js/, loader: 'babel', exclude: /node_modules/ }
-      ]
+      loaders: [{
+        test: /\.js/,
+        loader: `babel?cacheDirectory=${babelCache}`,
+        exclude: /node_modules/
+      }]
     },
 
     plugins: [
