@@ -12,7 +12,8 @@ module.exports = function (config) {
     frameworks: [
       'mocha',
       'chai',
-      'sinon'
+      'sinon',
+      'sinon-chai'
     ],
 
     files: [
