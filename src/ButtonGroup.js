@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import BootstrapMixin from './BootstrapMixin';
 
 const ButtonGroup = React.createClass({
+  displayName: 'ReactBootstrap.ButtonGroup',
   mixins: [BootstrapMixin],
 
   propTypes: {

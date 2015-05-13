@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import BootstrapMixin from './BootstrapMixin';
 
 const Alert = React.createClass({
+  displayName: 'ReactBootstrap.Alert',
   mixins: [BootstrapMixin],
 
   propTypes: {

@@ -9,6 +9,7 @@ import ValidComponentChildren from './utils/ValidComponentChildren';
 import createChainedFunction from './utils/createChainedFunction';
 
 const Nav = React.createClass({
+  displayName: 'ReactBootstrap.Nav',
   mixins: [BootstrapMixin, CollapsibleMixin],
 
   propTypes: {

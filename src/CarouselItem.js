@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import TransitionEvents from './utils/TransitionEvents';
 
 const CarouselItem = React.createClass({
+  displayName: 'ReactBootstrap.CarouselItem',
   propTypes: {
     direction: React.PropTypes.oneOf(['prev', 'next']),
     onAnimateOutEnd: React.PropTypes.func,

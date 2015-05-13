@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 
 const Grid = React.createClass({
+  displayName: 'ReactBootstrap.Grid',
   propTypes: {
     fluid: React.PropTypes.bool,
     componentClass: React.PropTypes.node.isRequired

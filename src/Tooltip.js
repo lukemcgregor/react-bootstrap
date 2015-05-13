@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import BootstrapMixin from './BootstrapMixin';
 
 const Tooltip = React.createClass({
+  displayName: 'ReactBootstrap.Tootip',
   mixins: [BootstrapMixin],
 
   propTypes: {

@@ -10,6 +10,7 @@ import DropdownMenu from './DropdownMenu';
 import ValidComponentChildren from './utils/ValidComponentChildren';
 
 const DropdownButton = React.createClass({
+  displayName: 'ReactBootstrap.DropdownButton',
   mixins: [BootstrapMixin, DropdownStateMixin],
 
   propTypes: {

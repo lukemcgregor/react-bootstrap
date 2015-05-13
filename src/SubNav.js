@@ -6,6 +6,7 @@ import createChainedFunction from './utils/createChainedFunction';
 import BootstrapMixin from './BootstrapMixin';
 
 const SubNav = React.createClass({
+  displayName: 'ReactBootstrap.SubNav',
   mixins: [BootstrapMixin],
 
   propTypes: {

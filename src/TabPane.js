@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import TransitionEvents from './utils/TransitionEvents';
 
 const TabPane = React.createClass({
+  displayName: 'ReactBootstrap.TabPane',
   propTypes: {
     active:          React.PropTypes.bool,
     animation:       React.PropTypes.bool,

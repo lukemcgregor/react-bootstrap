@@ -5,6 +5,7 @@ import createChainedFunction from './utils/createChainedFunction';
 import createContextWrapper from './utils/createContextWrapper';
 
 const ModalTrigger = React.createClass({
+  displayName: 'ReactBootstrap.ModalTrigger',
   mixins: [OverlayMixin],
 
   propTypes: {

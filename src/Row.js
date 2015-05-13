@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 
 const Row = React.createClass({
+  displayName: 'ReactBootstrap.Row',
   propTypes: {
     componentClass: React.PropTypes.node.isRequired
   },

@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import BootstrapMixin from './BootstrapMixin';
 
 const ButtonToolbar = React.createClass({
+  displayName: 'ReactBootstrap.ButtonToolbar',
   mixins: [BootstrapMixin],
 
   getDefaultProps() {

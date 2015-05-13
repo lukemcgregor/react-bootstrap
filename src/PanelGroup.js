@@ -7,6 +7,7 @@ import BootstrapMixin from './BootstrapMixin';
 import ValidComponentChildren from './utils/ValidComponentChildren';
 
 const PanelGroup = React.createClass({
+  displayName: 'ReactBootstrap.PanelGroup',
   mixins: [BootstrapMixin],
 
   propTypes: {

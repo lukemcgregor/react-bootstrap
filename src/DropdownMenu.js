@@ -5,6 +5,7 @@ import createChainedFunction from './utils/createChainedFunction';
 import ValidComponentChildren from './utils/ValidComponentChildren';
 
 const DropdownMenu = React.createClass({
+  displayName: 'ReactBootstrap.DropdownMenu',
   propTypes: {
     pullRight: React.PropTypes.bool,
     onSelect: React.PropTypes.func

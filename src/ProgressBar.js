@@ -6,6 +6,7 @@ import classNames from 'classnames';
 import ValidComponentChildren from './utils/ValidComponentChildren';
 
 const ProgressBar = React.createClass({
+  displayName: 'ReactBootstrap.ProgressBae',
   propTypes: {
     min: React.PropTypes.number,
     now: React.PropTypes.number,

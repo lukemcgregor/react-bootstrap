@@ -6,6 +6,7 @@ import ValidComponentChildren from './utils/ValidComponentChildren';
 import createChainedFunction from './utils/createChainedFunction';
 
 const Navbar = React.createClass({
+  displayName: 'ReactBootstrap.NavBar',
   mixins: [BootstrapMixin],
 
   propTypes: {

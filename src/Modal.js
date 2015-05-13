@@ -12,6 +12,7 @@ import EventListener from './utils/EventListener';
 // - Tests
 
 const Modal = React.createClass({
+  displayName: 'ReactBootstrap.Modal',
   mixins: [BootstrapMixin, FadeMixin],
 
   propTypes: {

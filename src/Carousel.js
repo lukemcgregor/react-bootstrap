@@ -4,6 +4,7 @@ import BootstrapMixin from './BootstrapMixin';
 import ValidComponentChildren from './utils/ValidComponentChildren';
 
 const Carousel = React.createClass({
+  displayName: 'ReactBootstrap.Carousel',
   mixins: [BootstrapMixin],
 
   propTypes: {

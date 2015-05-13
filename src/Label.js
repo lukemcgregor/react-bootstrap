@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import BootstrapMixin from './BootstrapMixin';
 
 const Label = React.createClass({
+  displayName: 'ReactBootstrap.Label',
   mixins: [BootstrapMixin],
 
   getDefaultProps() {

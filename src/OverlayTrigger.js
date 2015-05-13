@@ -21,6 +21,7 @@ function isOneOf(one, of) {
 }
 
 const OverlayTrigger = React.createClass({
+  displayName: 'ReactBootstrap.OverlayTrigger',
   mixins: [OverlayMixin],
 
   propTypes: {

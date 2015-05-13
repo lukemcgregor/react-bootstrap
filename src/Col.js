@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import styleMaps from './styleMaps';
 
 const Col = React.createClass({
+  displayName: 'ReactBootstrap.Col',
   propTypes: {
     xs: React.PropTypes.number,
     sm: React.PropTypes.number,

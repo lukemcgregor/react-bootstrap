@@ -4,6 +4,7 @@ import classNames from 'classnames';
 
 
 const ListGroupItem = React.createClass({
+  displayName: 'ReactBootstrap.ListGroupItem',
   mixins: [BootstrapMixin],
 
   propTypes: {

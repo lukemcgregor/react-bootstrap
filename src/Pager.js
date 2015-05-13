@@ -5,7 +5,7 @@ import ValidComponentChildren from './utils/ValidComponentChildren';
 import createChainedFunction from './utils/createChainedFunction';
 
 const Pager = React.createClass({
-
+  displayName: 'ReactBootstrap.Pager',
   propTypes: {
     onSelect: React.PropTypes.func
   },

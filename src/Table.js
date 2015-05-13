@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 
 const Table = React.createClass({
+  displayName: 'ReactBootstrap.Table',
   propTypes: {
     striped: React.PropTypes.bool,
     bordered: React.PropTypes.bool,

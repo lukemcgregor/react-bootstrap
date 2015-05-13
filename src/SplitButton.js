@@ -9,6 +9,7 @@ import ButtonGroup from './ButtonGroup';
 import DropdownMenu from './DropdownMenu';
 
 const SplitButton = React.createClass({
+  displayName: 'ReactBootstrap.SplitButton',
   mixins: [BootstrapMixin, DropdownStateMixin],
 
   propTypes: {

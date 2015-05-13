@@ -4,6 +4,7 @@ import AffixMixin from './AffixMixin';
 import domUtils from './utils/domUtils';
 
 const Affix = React.createClass({
+  displayName: 'ReactBootstrap.Affix',
   statics: {
     domUtils
   },

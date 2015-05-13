@@ -6,6 +6,7 @@ import CollapsibleMixin from './CollapsibleMixin';
 import collapsable from './utils/deprecatedProperty';
 
 const Panel = React.createClass({
+  displayName: 'ReactBootstrap.Panel',
   mixins: [BootstrapMixin, CollapsibleMixin],
 
   propTypes: {

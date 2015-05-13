@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 
 const MenuItem = React.createClass({
+  displayName: 'ReactBootstrap.MenuItem',
   propTypes: {
     header:    React.PropTypes.bool,
     divider:   React.PropTypes.bool,

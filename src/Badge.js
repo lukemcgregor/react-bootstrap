@@ -4,6 +4,7 @@ import classNames from 'classnames';
 
 
 const Badge = React.createClass({
+  displayName: 'ReactBootstrap.Badge',
   propTypes: {
     pullRight: React.PropTypes.bool
   },

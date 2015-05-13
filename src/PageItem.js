@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 
 const PageItem = React.createClass({
-
+  displayName: 'ReactBootstrap.PageItem',
   propTypes: {
     href: React.PropTypes.string,
     target: React.PropTypes.string,

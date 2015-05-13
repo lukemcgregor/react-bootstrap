@@ -4,6 +4,7 @@ import BootstrapMixin from './BootstrapMixin';
 import styleMaps from './styleMaps';
 
 const Glyphicon = React.createClass({
+  displayName: 'ReactBootstrap.Glyphicon',
   mixins: [BootstrapMixin],
 
   propTypes: {
